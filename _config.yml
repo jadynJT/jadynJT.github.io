@@ -1,17 +1,17 @@
 # Site settings
-title: BY Blog
-SEOTitle: 柏荧的博客 | BY Blog
+title: jadynJT
+SEOTitle: 敬填的博客 | BY Blog
 header-img: img/post-bg-rwd.jpg
-email: qiubaiying@gmail.com
-description: "每个胜利背后都有许多尝试"
-keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
-url: "https://qiubaiying.github.io"          # your host, for absolute URL
+email: 695331437@qq.com
+description: "如果奇迹有颜色，那一定是红蓝色！"
+keyword: "敬填的博客, iOS, Apple, iPhone"
+url: "https://jadynJT.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "BE THE BEST FOREVER"
 sidebar-avatar: img/avatar-by.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -19,10 +19,10 @@ sidebar-avatar: img/avatar-by.jpg      # use absolute URL, seeing it's used in b
 # SNS settings
 RSS: false
 # weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
+#zhihu_username:     qiubaiying
+github_username:    jadynJT
+#facebook_username:  baiying.qiu.7
+jianshu_username:   fa44c53e9937
 #twitter_username:   qiubaiying
 
 
