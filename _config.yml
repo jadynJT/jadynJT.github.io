@@ -1,10 +1,10 @@
 # Site settings
 title: jadynJT
-SEOTitle: 敬填的博客 | BY Blog
+SEOTitle: 敬填博客 | BY Blog
 header-img: img/post-bg-rwd.jpg
 email: 695331437@qq.com
-description: "惺惺惜惺惺想寻"
-keyword: "敬填的博客, iOS, Apple, iPhone"
+description: "如果奇迹有颜色，那一定是红蓝色！"
+keyword: "敬填博客, iOS, Apple, iPhone"
 url: "https://jadynJT.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -60,7 +60,7 @@ kramdown:
 # Duoshuo settings
 duoshuo_username: jadynJT
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+duoshuo_share: false                     # set to false if you want to use Comment without Sharing
 
 
 
