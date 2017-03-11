@@ -92,14 +92,11 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "Vincent",
+        href: "https://vincentcwlove.github.io/"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
-    },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "林茂佳",
+        href: "https://linmaojia.github.io/"
     },{
         title: "Apple Developer",
         href: "https://developer.apple.com/"
