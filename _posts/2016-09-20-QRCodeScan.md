@@ -15,7 +15,7 @@ tags:
 >今天准备使用iOS原生控件AVCapture系列来进行二维码扫描
 
 # 效果图
-![](https://raw.githubusercontent.com/jadynJT/QRCodeScan/master/picture/QRCode.gif)
+<!--![](https://raw.githubusercontent.com/jadynJT/QRCodeScan/master/picture/QRCode.gif)-->
 
 # 关键代码
 
@@ -103,3 +103,6 @@ tags:
 }
 
 ```
+
+# 下载地址
+[DEMO地址](https://github.com/jadynJT/QRCodeScan)
