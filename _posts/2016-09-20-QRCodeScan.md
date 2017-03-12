@@ -4,7 +4,7 @@ title:      iOS原生扫码控件
 subtitle:   QRCodeScan
 date:       2016-09-20
 author:     JT
-header-img: img/post-bg-ios9-web.jpg
+header-img: img/post-bg-basa2.jpg
 catalog: true
 tags:
     - iOS
