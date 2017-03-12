@@ -1,14 +1,16 @@
 ---
 layout:     post
 title:      ijkPlayer播放rtsp协议
-subtitle:   ijkplayer、rtsp
+subtitle:   ijkplayer、rts
 date:       2017-01-05
 author:     JT
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
     - iOS
- ---
+
+---
+
 # 前言
 >由于FFmpeg的config文件默认没有开启对rtsp协议的支持，所以导致rtsp的地址一直无法播放
 
