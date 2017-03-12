@@ -16,10 +16,12 @@ tags:
 
 ## 解决方法
 - 来到ijkplayer/config目录下，找到module-lite.sh文件，该文件是编译FFmpeg的配置文件  
+  
 - 打开该文件，找到  
   `export COMMON_FF_CFG_FLAGS="$COMMON_FF_CFG_FLAGS --disable-protocol=rtp" `   
   修改为以下，就可以打开rtsp协议了  
-  `export COMMON_FF_CFG_FLAGS="$COMMON_FF_CFG_FLAGS --enable-protocol=rtp"`    
+  `export COMMON_FF_CFG_FLAGS="$COMMON_FF_CFG_FLAGS --enable-protocol=rtp"`  
+  
 - 打开rtsp音视频分离器  
 `export COMMON_FF_CFG_FLAGS="$COMMON_FF_CFG_FLAGS --enable-demuxer=rtsp"`  
 
@@ -45,7 +47,7 @@ tags:
  重新编译，打包Framework，发现可以正常播放，但是实际播放效果不理想，卡顿严重！
  
 ## 优化ijkPlayer
->**添加相应的配置代码，使其达到最佳的播放效果**
+>添加相应的配置代码，使其达到最佳的播放效果
 
 
 ```
