@@ -3,7 +3,7 @@ layout:     post
 title:      iOS原生扫码控件
 subtitle:   QRCodeScan
 date:       2016-09-20
-author:     BY
+author:     敬填
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
