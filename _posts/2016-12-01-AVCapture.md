@@ -4,7 +4,7 @@ title:      使用AVCapture
 subtitle:   AVCapture
 date:       2016-12-01
 author:     JT
-header-img: img/post-bg-hengda1.jpg
+header-img: img/post-bg-basa2.jpg
 catalog: true
 tags:
     - iOS
