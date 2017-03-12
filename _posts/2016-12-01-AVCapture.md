@@ -14,7 +14,7 @@ tags:
 # 前言
 >可用于音频、二维码、拍照、录制视频 （均可自定义界面）
 
-##常见的输出信号
+## 常见的输出信号
 - `AVCaptureAudioDataOutput` 音频输出
 - `AVCaptureFileOutput `文本输出
 - 	`AVCaptureMetadataOutput `二维码 条形码…
@@ -22,7 +22,7 @@ tags:
 -  `AVCaptureMovieFileOutput` 录制视频（不能实现暂停录制和定义视频文件类型）
 -  `AVCaptureVideoDataOutput + AVCaptureAudioDataOutput` 录制视频的灵活性更强（能实现暂停录制和定义视频文件类型）
 
-##举例
+## 举例
 >**使用AVCaptureMovieFileOutput输出流实现视频录制**
 
 **初始化会话层**
