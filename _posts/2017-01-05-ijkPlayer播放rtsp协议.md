@@ -16,19 +16,14 @@ tags:
 
 ## 解决方法
 - 来到ijkplayer/config目录下，找到module-lite.sh文件，该文件是编译FFmpeg的配置文件  
-
 - 打开该文件，找到  
-  
-  `export COMMON_FF_CFG_FLAGS="$COMMON_FF_CFG_FLAGS --disable-protocol=rtp" ` 
-    
-  修改为以下，就可以打开rtsp协议了 
-  
- `export COMMON_FF_CFG_FLAGS="$COMMON_FF_CFG_FLAGS --enable-protocol=rtp"`  
- 
-- 打开rtsp音视频分离器 
+  `export COMMON_FF_CFG_FLAGS="$COMMON_FF_CFG_FLAGS --disable-protocol=rtp" `   
+  修改为以下，就可以打开rtsp协议了  
+  `export COMMON_FF_CFG_FLAGS="$COMMON_FF_CFG_FLAGS --enable-protocol=rtp"`    
+- 打开rtsp音视频分离器  
 `export COMMON_FF_CFG_FLAGS="$COMMON_FF_CFG_FLAGS --enable-demuxer=rtsp"`  
 
-- 执行以下命令，连接配置文件，开始编译 
+- 执行以下命令，连接配置文件，开始编译  
   
   `cd config `  
   `rm module.sh `  
@@ -44,9 +39,7 @@ tags:
  >`No codec could be found with id 8`
  
  重新打开**module-lite.sh**文件，添加以下两行  
-  
  `export COMMON_FF_CFG_FLAGS="$COMMON_FF_CFG_FLAGS --enable-decoder=mjpeg"`  
- 
  `export COMMON_FF_CFG_FLAGS="$COMMON_FF_CFG_FLAGS --enable-demuxer=mjpeg"`
  
  重新编译，打包Framework，发现可以正常播放，但是实际播放效果不理想，卡顿严重！
