@@ -19,7 +19,7 @@ tags:
 
 # 关键代码
 
- - **iOS原生控件扫码**
+ 1) **iOS原生控件扫码**
 
 ```
 #pragma mark - 初始化扫描功能
@@ -57,7 +57,7 @@ tags:
 }
 
 ```
-- **扫码后执行的回调方法**
+2) **扫码后执行的回调方法**
 
 ```
 #pragma mark - AVCaptureMetadataOutputObjects delegate
@@ -78,7 +78,7 @@ tags:
 }
 
 ```
-- **使用ZXingObjC第三方从相册中选取二维码识别**
+3) **使用ZXingObjC第三方从相册中选取二维码识别**
 
 
 ```
