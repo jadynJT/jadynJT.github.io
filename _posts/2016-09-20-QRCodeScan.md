@@ -3,7 +3,7 @@ layout:     post
 title:      iOS原生扫码控件
 subtitle:   QRCodeScan
 date:       2016-09-20
-author:     敬填
+author:     JT
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
@@ -12,13 +12,14 @@ tags:
 ---
 # 前言
 
-今天准备使用iOS原生控件AVCapture系列来进行二维码扫描
+>今天准备使用iOS原生控件AVCapture系列来进行二维码扫描
 
 # 效果图
 ![](https://raw.githubusercontent.com/jadynJT/QRCodeScan/master/picture/QRCode.gif)
 
 # 关键代码
-#### iOS原生控件扫码
+
+ - **iOS原生控件扫码**
 
 ```
 #pragma mark - 初始化扫描功能
@@ -56,7 +57,8 @@ tags:
 }
 
 ```
-#### 扫码后执行的回调方法
+- **扫码后执行的回调方法**
+
 ```
 #pragma mark - AVCaptureMetadataOutputObjects delegate
 - (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputMetadataObjects:(NSArray *)metadataObjects fromConnection:(AVCaptureConnection *)connection {
@@ -76,7 +78,9 @@ tags:
 }
 
 ```
-#### 使用ZXingObjC第三方从相册中选取二维码识别
+- **使用ZXingObjC第三方从相册中选取二维码识别**
+
+
 ```
 - (void)scanQRwithImage:(UIImage *)image {
     ZXLuminanceSource *source = [[ZXCGImageLuminanceSource alloc] initWithCGImage:image.CGImage];
