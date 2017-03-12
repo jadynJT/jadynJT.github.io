@@ -4,7 +4,7 @@ title:      ijkPlayer播放rtsp协议
 subtitle:   ijkPlayer、rtsp
 date:       2017-01-05
 author:     JT
-header-img: img/post-bg-ios9-web.jpg
+header-img: img/post-bg-basa1.jpg
 catalog: true
 tags:
     - iOS
